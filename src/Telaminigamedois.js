@@ -30,9 +30,9 @@ class Telaminigamedois extends Phaser.Scene {
             .setDisplaySize(largura, altura);
 
         // Adicionar a imagem da missão
-        this.missao = this.add.image(centerX, centerY - altura * 0.05, "missao")
+        this.missao = this.add.image(centerX, centerY - altura * 0.03, "missao")
             .setOrigin(0.5)
-            .setScale(0.5);
+            .setScale(0.32);
 
         // Adiciona evento para atualizar o fundo quando a tela for redimensionada
         this.scale.on('resize', this.atualizarFundo, this);
@@ -41,7 +41,7 @@ class Telaminigamedois extends Phaser.Scene {
         const deslocamentoEsquerda = -100;
 
         // Criar as setas à esquerda e à direita do texto
-        const setaEsquerda = this.add.text(centerX - 239 + deslocamentoEsquerda, centerY + altura * 0.27, ">>", {
+        const setaEsquerda = this.add.text(centerX - 169 + deslocamentoEsquerda, centerY + altura * 0.27, ">>", {
             fontSize: Math.min(largura, altura) * 0.055,
             fill: "#FFFFFF",
             fontFamily: "Rainyhearts",
