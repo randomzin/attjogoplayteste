@@ -46,7 +46,7 @@ class Cenainicial extends Phaser.Scene {
             .setScale(1.7);
 
         // Adiciona um quadrado vermelho no centro do mapa
-        this.cube = this.add.rectangle(2460, 500, 30, 30, 0xff0000);
+        this.cube = this.add.rectangle(850, 450, 30, 30, 0xff0000);
 
         // Faz o quadrado vermelho piscar a cada 500ms
         this.time.addEvent({
