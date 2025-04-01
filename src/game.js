@@ -2,7 +2,7 @@ const config = {
     type: Phaser.AUTO,
     width: window.innerWidth,  // Usa o tamanho da janela
     height: window.innerHeight,
-    scene: [Telaminigamedois, Conversationdois, Gamedoismini, Celulargrupoum],
+    scene: [MainMenu, Conversation, Gameinicial, Cenainicial, CenaEscola, Telaminigamedois, Conversationdois, Gamedoismini, Celulargrupoum],
     scale: {
         mode: Phaser.Scale.RESIZE,  // Permite redimensionamento automático
         autoCenter: Phaser.Scale.CENTER_BOTH,  // Centraliza o jogo
